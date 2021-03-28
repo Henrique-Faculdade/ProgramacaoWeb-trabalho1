@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>shopee</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="sortcut icon" href="shopee.jpg" type="image/x-icon"/>
+</head>
+<body>
+<header>
+    <div class="cx-header">
+        <h1><img src="shopee.jpg"/></h1>
+        <h2>Shopee</h2>
+    </div>
+</header>
+<div>
+    <nav>
+        <ul class="navegacao">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://www.instagram.com/shopee_br/?hl=pt-br">Instagram</a></li>
+            <li><a href="login.html" >Login</a></li>
+        </ul>
+    </nav>
+</div>
+
+<main>
+    <br>
+    <div class="sobre">
+         <div class="sobre-cabecalho">
+            <h1><strong><u>Quem somos? </u></strong></h1>
+        </div>
+        <div class="sobre-conteudo">
+            Lançada em 2015, a Shopee é uma plataforma adaptada para suas regiões, <p> oferecendo aos seus clientes
+            uma experiência de compras online rápida, fácil e segura através de um forte suporte de pagamento e
+            de logística.
+            <p> Acreditamos que as compras online devem ser acessíveis, fáceis e agradáveis. Essa é a visão que a
+                Shopee aspira entregar através da sua plataforma, todos os dias. </p>
+        </div>
+    </div>
+    <div class="tabela">    
+        <h1><u>Tabela de avaliação</u></h1>
+        <table>
+            <thead>         
+            <tr>
+                <th> Status</th>
+                <th> Avaliação</th>
+                <th> %</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="pessimo"> Péssimo</td>
+                <td> 0</td>
+                <td> 0%</td>
+            </tr>
+            <tr>
+                <td id="ruim"> Ruim</td>
+                <td> 2</td>
+                <td> 0,5%</td>
+            </tr>
+            <tr>
+                <td id="neutro"> Neutro</td>
+                <td> 10</td>
+                <td> 2,9%</td>
+            </tr>
+            <tr>
+                <td id="bom"> Bom</td>
+                <td> 55</td>
+                <td> 16%</td>
+            </tr>
+            <tr>
+                <td id="otimo"> Ótimo</td>
+                <td> 267</td>
+                <td> 79%</td>
+            </tr>
+            <tr>
+                <td> Total</td>
+                <td> 334</td>
+                <td> 100%</td>
+            </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    <ul class="produtos">
+        <div class =" prod">
+            <h1> Ofertas Shopee </h1>
+            <br>
+        </div>
+        <li>
+            <h2 id="produto1">Moletom Rosa bebê</h2>
+            <img src="moletom.JPG" style="width:50%" alt=""/>
+            <p class="produto-preco">R$ 69,90</p>
+        </li>
+        <li>
+            <h2 id="produto2">Coturno Branco</h2>
+            <img src="Bota.JPG" style="width:56%" alt=""/>
+            <p class="produto-preco">R$ 89,90</p>
+        </li>
+        <li>
+            <h2 id="produto3"> Relógio Smart Watch </h2>
+            <img src="relogio.png" style="width:60%" alt=""/>
+            <p class="produto-preco">R$ 86,99</p>
+        </li>
+    </ul>
+
+    
+    
+    <div class="formulario">
+        <form>
+            <fieldset class="grupo">
+                <div class="duvidas">
+                    <h1> Dúvidas ou sugestões? Fale Conosco</h1>
+                    <br>
+                </div>
+            
+                <div class="campo">
+                    <label for="nome"> <strong>Nome *</strong> </label>
+                    <input type="text" placeholder="Nome" name="nome" id="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"> <strong>Sobrenome *</strong> </label>
+                    <input type="text" placeholder="Sobrenome" name="sobrenome" id="sobrenome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email"><strong>E-mail *</strong></label>
+                    <input type="email" placeholder="seu@email.com" name="email" id="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone *</strong></label>
+                    <input type="tel" placeholder="(DDD) XXXXXXXXX" name="telefone" id="telefone" required>
+                </div>
+                <div class="campo">
+                    <label for="mensagem">Mensagem *</label> 
+                    <textarea class="input-msg" placeholder="Digite sua mensagem" id="mensagem" cols="70"
+                              rows="10" required></textarea> 
+                </div>
+
+                <button class="botao" type="submit"> Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+</main>
+<footer>
+    <img src="shopee.jpg" alt="logo Shopee">
+    <p>&copy; 2021 Shopee. Todos os direitos reservados
+    </p>
+        <a href="mailto: maria@hotmai.com">Enviar e-mail</a>
+        <a href="tel: 419999999">Contato</a>
+</footer>
+</body>
+
+</html>
